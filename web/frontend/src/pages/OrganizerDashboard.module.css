@@ -1,0 +1,155 @@
+.loadingWrap {
+  @apply flex min-h-[40vh] items-center justify-center text-zinc-500;
+}
+
+.spinner {
+  @apply mr-3 h-8 w-8 animate-spin rounded-full border-2 border-brand-500 border-t-transparent;
+}
+
+.errorWrap {
+  @apply mx-auto max-w-3xl px-4 py-16;
+}
+
+.errorText {
+  @apply text-red-600;
+}
+
+.link {
+  @apply mt-4 inline-block font-semibold text-brand-700 hover:underline;
+}
+
+.page {
+  @apply mx-auto max-w-7xl px-4 py-10;
+}
+
+.header {
+  @apply flex flex-wrap items-end justify-between gap-4 border-b border-zinc-200 pb-6;
+}
+
+.title {
+  @apply font-display text-3xl font-extrabold text-zinc-900;
+}
+
+.subtitle {
+  @apply mt-2 text-zinc-600;
+}
+
+.btnNew {
+  @apply rounded-full bg-brand-600 px-5 py-2.5 text-sm font-bold text-white shadow-md hover:bg-brand-700;
+}
+
+.list {
+  @apply mt-8 space-y-3;
+}
+
+.row {
+  @apply flex flex-wrap items-center justify-between gap-4 rounded-xl border border-zinc-200 bg-white p-5 shadow-card;
+}
+
+.eventTitle {
+  @apply font-display font-bold text-zinc-900;
+}
+
+.meta {
+  @apply mt-1 text-sm text-zinc-500;
+}
+
+.estadoEmerald {
+  @apply font-medium text-emerald-600;
+}
+
+.estadoAmber {
+  @apply font-medium text-amber-700;
+}
+
+.estadoRed {
+  @apply font-medium text-red-700;
+}
+
+.cat {
+  @apply text-zinc-600;
+}
+
+.modBox {
+  @apply mt-2 rounded-lg border border-red-100 bg-red-50 px-3 py-2 text-xs text-red-900;
+}
+
+.modLabel {
+  @apply font-semibold;
+}
+
+.actions {
+  @apply flex flex-wrap gap-2;
+}
+
+.btnEdit {
+  @apply rounded-full border border-zinc-200 bg-white px-4 py-2 text-sm font-bold text-zinc-800 hover:border-brand-300 hover:text-brand-800;
+}
+
+.btnPublic {
+  @apply rounded-full border border-brand-200 bg-brand-50 px-4 py-2 text-sm font-bold text-brand-800 hover:bg-brand-100;
+}
+
+.btnPublicDisabled {
+  @apply cursor-not-allowed rounded-full border border-zinc-200 bg-zinc-50 px-4 py-2 text-sm font-bold text-zinc-400;
+}
+
+.btnDelete {
+  @apply rounded-full border border-red-200 bg-white px-4 py-2 text-sm font-bold text-red-700 hover:bg-red-50;
+}
+
+.empty {
+  @apply mt-8 rounded-xl border border-dashed border-zinc-300 bg-zinc-50 px-6 py-10 text-center text-zinc-500;
+}
+
+.emptyLink {
+  @apply font-semibold text-brand-700 hover:underline;
+}
+
+.modalBackdrop {
+  @apply fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4;
+}
+
+.modalCard {
+  @apply w-full max-w-md rounded-2xl border border-zinc-200 bg-white p-6 shadow-xl;
+}
+
+.modalTitle {
+  @apply font-display text-lg font-extrabold text-zinc-900;
+}
+
+.modalText {
+  @apply mt-2 text-sm text-zinc-600;
+}
+
+.modalStrong {
+  @apply text-zinc-900;
+}
+
+.modalForm {
+  @apply mt-4 space-y-4;
+}
+
+.modalLabel {
+  @apply block text-sm font-medium text-zinc-700;
+}
+
+.modalInput {
+  @apply mt-1 w-full rounded-lg border border-zinc-300 px-3 py-2.5 text-zinc-900;
+}
+
+.modalErr {
+  @apply rounded-lg border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-800;
+}
+
+.modalActions {
+  @apply flex flex-wrap justify-end gap-2;
+}
+
+.btnCancel {
+  @apply rounded-full border border-zinc-300 px-5 py-2.5 text-sm font-semibold text-zinc-700 hover:bg-zinc-50 disabled:opacity-50;
+}
+
+.btnDanger {
+  @apply rounded-full bg-red-600 px-5 py-2.5 text-sm font-bold text-white hover:bg-red-700 disabled:opacity-50;
+}

@@ -1,0 +1,123 @@
+.section {
+  @apply mt-10 border-t border-zinc-200 pt-10;
+}
+
+.title {
+  @apply font-display text-xl font-bold text-zinc-900;
+}
+
+.lead {
+  @apply mt-1 text-sm text-zinc-500;
+}
+
+.summaryRow {
+  @apply mt-6 flex flex-wrap items-center gap-4;
+}
+
+.avgNum {
+  @apply font-display text-3xl font-extrabold text-zinc-900;
+}
+
+.avgLabel {
+  @apply text-sm text-zinc-500;
+}
+
+.starsRow {
+  @apply inline-flex gap-0.5 text-2xl leading-none;
+}
+
+.starOn {
+  @apply text-amber-400;
+}
+
+.starOff {
+  @apply text-zinc-200;
+}
+
+.countMeta {
+  @apply text-sm text-zinc-600;
+}
+
+.list {
+  @apply mt-8 space-y-4;
+}
+
+.card {
+  @apply rounded-xl border border-zinc-200 bg-zinc-50/80 p-4 shadow-sm;
+}
+
+.cardHead {
+  @apply flex flex-wrap items-center justify-between gap-2;
+}
+
+.author {
+  @apply text-sm font-semibold text-zinc-800;
+}
+
+.date {
+  @apply text-xs text-zinc-500;
+}
+
+.comment {
+  @apply mt-2 whitespace-pre-wrap text-sm leading-relaxed text-zinc-700;
+}
+
+.formWrap {
+  @apply mt-8 rounded-2xl border border-brand-200 bg-brand-50/40 p-5 shadow-sm;
+}
+
+.formTitle {
+  @apply font-display text-lg font-bold text-zinc-900;
+}
+
+.formHint {
+  @apply mt-2 text-sm text-zinc-600;
+}
+
+.formHintPruebas {
+  @apply mt-2 rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-xs font-medium text-amber-900;
+}
+
+.starPick {
+  @apply mt-4 flex flex-wrap items-center gap-2;
+}
+
+.starBtn {
+  @apply rounded-lg border-2 border-zinc-200 bg-white px-2 py-1 text-2xl text-amber-400 transition hover:border-amber-300;
+}
+
+.starBtnSel {
+  @apply border-amber-500 ring-2 ring-amber-200;
+}
+
+.label {
+  @apply mt-4 block text-sm font-semibold text-zinc-700;
+}
+
+.textarea {
+  @apply mt-2 w-full rounded-xl border border-zinc-200 bg-white px-3 py-2 text-sm text-zinc-800 shadow-sm placeholder:text-zinc-400 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-500/20;
+}
+
+.btnSubmit {
+  @apply mt-4 rounded-full bg-brand-600 px-6 py-2.5 text-sm font-bold text-white shadow-md hover:bg-brand-700 disabled:cursor-not-allowed disabled:opacity-50;
+}
+
+.formErr {
+  @apply mt-2 text-sm text-red-600;
+}
+
+.formOk {
+  @apply mt-2 text-sm font-medium text-emerald-700;
+}
+
+.empty {
+  @apply mt-6 rounded-xl border border-dashed border-zinc-200 bg-white px-4 py-8 text-center text-sm text-zinc-500;
+}
+
+.loading {
+  @apply mt-6 text-sm text-zinc-500;
+}
+
+.errBanner {
+  @apply mt-4 rounded-lg border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-800;
+}

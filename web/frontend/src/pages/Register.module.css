@@ -1,0 +1,51 @@
+.loadingWrap {
+  @apply flex min-h-[50vh] items-center justify-center text-zinc-500;
+}
+
+.spinner {
+  @apply h-8 w-8 animate-spin rounded-full border-2 border-brand-500 border-t-transparent;
+}
+
+.page {
+  @apply min-h-[70vh] bg-gradient-to-b from-brand-50/80 to-zinc-50;
+}
+
+.inner {
+  @apply mx-auto max-w-md px-4 py-16;
+}
+
+.card {
+  @apply rounded-2xl border border-zinc-200 bg-white p-8 shadow-xl;
+}
+
+.title {
+  @apply font-display text-2xl font-extrabold text-zinc-900;
+}
+
+.intro {
+  @apply mt-3 text-sm leading-relaxed text-zinc-600;
+}
+
+.introStrong {
+  @apply text-zinc-800;
+}
+
+.warn {
+  @apply mt-4 rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-sm text-amber-900;
+}
+
+.code {
+  @apply rounded bg-white px-1;
+}
+
+.oauthWrap {
+  @apply mt-8;
+}
+
+.footer {
+  @apply mt-8 text-center text-sm text-zinc-500;
+}
+
+.footerLink {
+  @apply font-semibold text-brand-700 hover:underline;
+}

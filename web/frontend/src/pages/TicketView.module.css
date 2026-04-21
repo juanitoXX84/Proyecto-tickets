@@ -1,0 +1,47 @@
+.root {
+  @apply mx-auto w-full max-w-lg px-4 py-10;
+}
+
+.title {
+  @apply font-display text-2xl font-extrabold text-zinc-900;
+}
+
+.lead {
+  @apply mt-1 text-sm text-zinc-500;
+}
+
+.card {
+  @apply mt-6 rounded-2xl border border-zinc-200 bg-zinc-50/80 p-5 shadow-sm;
+}
+
+.field {
+  @apply border-b border-zinc-200 py-3 last:border-0;
+}
+
+.label {
+  @apply text-xs font-bold uppercase tracking-wide text-zinc-500;
+}
+
+.value {
+  @apply mt-0.5 text-sm font-semibold text-zinc-900;
+}
+
+.error {
+  @apply mt-4 rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-800;
+}
+
+.footer {
+  @apply mt-8;
+}
+
+.link {
+  @apply text-sm font-semibold text-brand-700 hover:underline;
+}
+
+.loading {
+  @apply flex min-h-[40vh] items-center justify-center text-zinc-500;
+}
+
+.spinner {
+  @apply mr-2 h-6 w-6 animate-spin rounded-full border-2 border-brand-500 border-t-transparent;
+}

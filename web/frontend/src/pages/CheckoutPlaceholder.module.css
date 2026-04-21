@@ -1,0 +1,191 @@
+.loadingWrap {
+  @apply flex min-h-[40vh] items-center justify-center text-zinc-500;
+}
+
+.spinner {
+  @apply mr-3 h-8 w-8 animate-spin rounded-full border-2 border-brand-500 border-t-transparent;
+}
+
+.centerPage {
+  @apply mx-auto max-w-lg px-4 py-16 text-center;
+}
+
+.card {
+  @apply rounded-2xl border border-zinc-200 bg-white p-8 shadow-xl;
+}
+
+.cardRed {
+  @apply rounded-2xl border border-red-200 bg-red-50 p-8 shadow-xl;
+}
+
+.title {
+  @apply font-display text-xl font-extrabold text-zinc-900;
+}
+
+.titleRed {
+  @apply font-display text-xl font-extrabold text-red-900;
+}
+
+.text {
+  @apply mt-3 text-sm text-zinc-600;
+}
+
+.textRed {
+  @apply mt-3 text-sm text-red-800;
+}
+
+.errText {
+  @apply text-red-600;
+}
+
+.link {
+  @apply mt-4 inline-block font-semibold text-brand-700 hover:underline;
+}
+
+.btnPrimary {
+  @apply mt-6 inline-flex rounded-full bg-brand-600 px-6 py-3 text-sm font-bold text-white hover:bg-brand-700;
+}
+
+.shell {
+  @apply min-h-[60vh] bg-zinc-50;
+}
+
+.inner {
+  @apply mx-auto max-w-lg px-4 py-10;
+}
+
+.eventCard {
+  @apply mb-8 overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-xl;
+}
+
+.eventBody {
+  @apply p-6 text-left;
+}
+
+.cat {
+  @apply text-xs font-bold uppercase tracking-wide text-brand-700;
+}
+
+.eventTitle {
+  @apply mt-1 font-display text-xl font-extrabold text-zinc-900;
+}
+
+.zonaBox {
+  @apply mt-3 flex flex-wrap items-center gap-2 rounded-lg border border-brand-100 bg-brand-50/80 px-3 py-2 text-sm text-zinc-800;
+}
+
+.zonaColorDot {
+  @apply inline-block h-3 w-3 shrink-0 rounded-full border border-white/80 shadow-sm;
+}
+
+.zonaName {
+  @apply font-semibold text-brand-900;
+}
+
+.zonaTypeBadge {
+  @apply inline-flex items-center rounded-full border px-2 py-0.5 text-[10px] font-extrabold tracking-wide text-zinc-800;
+}
+
+.zonaSep {
+  @apply text-zinc-500;
+}
+
+.zonaPrice {
+  @apply font-bold text-brand-800;
+}
+
+.dateMain {
+  @apply mt-3 text-sm font-medium text-zinc-700;
+}
+
+.dateTime {
+  @apply mt-1 text-sm text-zinc-600;
+}
+
+.mapWrap {
+  @apply mt-4;
+}
+
+.checkoutCard {
+  @apply rounded-2xl border border-zinc-200 bg-white p-8 text-center shadow-xl;
+}
+
+.checkoutLabel {
+  @apply text-xs font-bold uppercase tracking-wide text-brand-700;
+}
+
+.checkoutTitle {
+  @apply mt-2 font-display text-2xl font-extrabold text-zinc-900;
+}
+
+.checkoutHelp {
+  @apply mt-4 text-sm text-zinc-600;
+}
+
+.totalPagar {
+  @apply mt-6 flex flex-col items-center gap-1 rounded-xl border border-brand-100 bg-brand-50/90 px-4 py-3 text-center;
+}
+
+.totalPagarLabel {
+  @apply text-xs font-semibold uppercase tracking-wide text-brand-800;
+}
+
+.totalPagarAmount {
+  @apply font-display text-2xl font-extrabold text-brand-900;
+}
+
+.qtyBlock {
+  @apply mt-6 text-left;
+}
+
+.qtyLabel {
+  @apply block text-sm font-semibold text-zinc-800;
+}
+
+.qtyRow {
+  @apply mt-2 flex flex-wrap items-center gap-3;
+}
+
+.qtyInput {
+  @apply w-24 rounded-lg border border-zinc-200 px-3 py-2 text-sm font-semibold;
+}
+
+.qtyHint {
+  @apply text-sm text-zinc-500;
+}
+
+.warnZona {
+  @apply mt-4 rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-sm text-amber-900;
+}
+
+.payErr {
+  @apply mt-4 rounded-lg border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-800;
+}
+
+.actions {
+  @apply mt-8 flex flex-wrap justify-center gap-3;
+}
+
+.btnPay {
+  @apply inline-flex rounded-full bg-brand-600 px-6 py-3 text-sm font-bold text-white hover:bg-brand-700 disabled:cursor-not-allowed disabled:opacity-50;
+}
+
+.btnGhost {
+  @apply inline-flex items-center rounded-full border border-zinc-300 bg-white px-6 py-3 text-sm font-bold text-zinc-800 hover:bg-zinc-50;
+}
+
+.footerNote {
+  @apply mt-6 text-xs text-zinc-500;
+}
+
+.footerLink {
+  @apply font-semibold text-brand-700 hover:underline;
+}
+
+.altCheckout {
+  @apply mt-4 text-center text-sm text-zinc-600;
+}
+
+.linkBtn {
+  @apply font-semibold text-brand-700 underline hover:text-brand-800;
+}

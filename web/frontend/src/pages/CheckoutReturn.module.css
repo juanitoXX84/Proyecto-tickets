@@ -1,0 +1,51 @@
+.loadingWrap {
+  @apply flex min-h-[40vh] items-center justify-center text-zinc-500;
+}
+
+.spinner {
+  @apply h-8 w-8 animate-spin rounded-full border-2 border-brand-500 border-t-transparent;
+}
+
+.page {
+  @apply mx-auto max-w-lg px-4 py-16;
+}
+
+.card {
+  @apply rounded-2xl border p-8 shadow-xl;
+}
+
+.cardEmerald {
+  @apply border-emerald-200 bg-emerald-50 text-emerald-900;
+}
+
+.cardAmber {
+  @apply border-amber-200 bg-amber-50 text-amber-900;
+}
+
+.cardRed {
+  @apply border-red-200 bg-red-50 text-red-900;
+}
+
+.cardZinc {
+  @apply border-zinc-200 bg-white text-zinc-800;
+}
+
+.title {
+  @apply font-display text-xl font-extrabold;
+}
+
+.message {
+  @apply mt-3 text-sm leading-relaxed opacity-90;
+}
+
+.actions {
+  @apply mt-8 flex flex-wrap gap-3;
+}
+
+.btnPrimary {
+  @apply inline-flex rounded-full bg-brand-600 px-5 py-2.5 text-sm font-bold text-white hover:bg-brand-700;
+}
+
+.btnSecondary {
+  @apply inline-flex rounded-full border border-zinc-300 bg-white px-5 py-2.5 text-sm font-bold text-zinc-800 hover:bg-zinc-50;
+}

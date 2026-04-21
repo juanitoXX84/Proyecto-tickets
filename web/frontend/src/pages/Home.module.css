@@ -1,0 +1,314 @@
+.loadingWrap {
+  @apply flex min-h-[40vh] items-center justify-center;
+}
+
+.loadingInner {
+  @apply flex items-center gap-3 text-zinc-500;
+}
+
+.spinner {
+  @apply h-8 w-8 animate-spin rounded-full border-2 border-brand-500 border-t-transparent;
+}
+
+.errorWrap {
+  @apply mx-auto max-w-3xl px-4 py-16;
+}
+
+.errorBox {
+  @apply rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-red-800;
+}
+
+.errorHint {
+  @apply mt-4 text-sm text-zinc-500;
+}
+
+.inlineCode {
+  @apply rounded bg-zinc-100 px-1.5 py-0.5 text-zinc-800;
+}
+
+.hero {
+  @apply relative overflow-hidden bg-gradient-to-br from-brand-800 via-brand-700 to-fuchsia-800 text-white;
+}
+
+.heroBlobs {
+  @apply pointer-events-none absolute inset-0 opacity-30;
+}
+
+.heroBlob1 {
+  @apply absolute -left-20 top-0 h-96 w-96 rounded-full bg-fuchsia-400 blur-3xl;
+}
+
+.heroBlob2 {
+  @apply absolute -right-20 bottom-0 h-80 w-80 rounded-full bg-violet-300 blur-3xl;
+}
+
+.heroInner {
+  @apply relative mx-auto max-w-7xl px-4 py-14 lg:flex lg:items-center lg:gap-12 lg:py-20;
+}
+
+.heroCopy {
+  @apply max-w-xl;
+}
+
+.heroKicker {
+  @apply text-sm font-bold uppercase tracking-widest text-brand-100/90;
+}
+
+.heroTitle {
+  @apply mt-3 font-display text-4xl font-extrabold leading-tight tracking-tight text-balance sm:text-5xl;
+}
+
+.heroLead {
+  @apply mt-4 text-lg text-brand-100/95;
+}
+
+.heroCtas {
+  @apply mt-8 flex flex-wrap gap-3;
+}
+
+.btnRegister {
+  @apply inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-bold text-brand-800 shadow-lg hover:bg-brand-50;
+}
+
+.btnGhost {
+  @apply inline-flex items-center justify-center rounded-full border-2 border-white/40 px-6 py-3 text-sm font-bold text-white hover:bg-white/10;
+}
+
+.heroAside {
+  @apply mt-10 flex-1 lg:mt-0;
+}
+
+.featuredCarousel {
+  @apply relative;
+}
+
+.featuredLinkAgotado {
+  @apply block overflow-hidden rounded-2xl shadow-2xl ring-1 backdrop-blur transition-opacity duration-300 bg-white/5 ring-white/10 opacity-80 grayscale-[0.35];
+}
+
+.featuredLink {
+  @apply block overflow-hidden rounded-2xl shadow-2xl ring-1 backdrop-blur transition-opacity duration-300 bg-white/10 ring-white/20;
+}
+
+.featuredSlide {
+  animation: featuredFade 320ms ease-out;
+}
+
+.featuredMedia {
+  @apply relative aspect-[16/10] overflow-hidden bg-white/10;
+}
+
+.featuredImg {
+  @apply h-full w-full object-cover object-center [transform:translateZ(0)] transition duration-300 group-hover:scale-[1.02];
+}
+
+.featuredImgAgotado {
+  @apply h-full w-full object-cover object-center [transform:translateZ(0)] transition duration-300;
+}
+
+.featuredPlaceholder {
+  @apply flex h-full min-h-[10rem] items-center justify-center text-6xl opacity-30;
+}
+
+.badgeSinCupo {
+  @apply absolute right-3 top-3 rounded-full bg-zinc-900/80 px-3 py-1 text-xs font-bold text-zinc-100;
+}
+
+.featuredFooter {
+  @apply bg-black/25 p-5 backdrop-blur-sm;
+}
+
+.featuredKicker {
+  @apply text-xs font-bold uppercase tracking-wide text-brand-100;
+}
+
+.featuredTitle {
+  @apply mt-1 font-display text-xl font-bold text-white;
+}
+
+.featuredUbic {
+  @apply mt-1 text-sm text-brand-100/90;
+}
+
+.carouselControls {
+  @apply mt-3 flex items-center justify-between;
+}
+
+.carouselBtn {
+  @apply inline-flex h-9 w-9 items-center justify-center rounded-full border border-white/30 bg-black/35 text-lg font-bold text-white backdrop-blur transition hover:bg-black/50;
+}
+
+.carouselDots {
+  @apply flex items-center gap-2 rounded-full border border-white/20 bg-black/30 px-3 py-1.5 backdrop-blur;
+}
+
+.carouselDot {
+  @apply h-2.5 w-2.5 rounded-full bg-white/45 transition hover:bg-white/70;
+}
+
+.carouselDotActive {
+  @apply h-2.5 w-5 rounded-full bg-white;
+}
+
+@keyframes featuredFade {
+  from {
+    opacity: 0.7;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.listSection {
+  @apply mx-auto max-w-7xl px-4 py-12 lg:py-16;
+}
+
+.listHeader {
+  @apply flex flex-wrap items-end justify-between gap-4 border-b border-zinc-200 pb-4;
+}
+
+.listTitle {
+  @apply font-display text-2xl font-bold text-zinc-900;
+}
+
+.listSubtitle {
+  @apply mt-1 text-sm text-zinc-500;
+}
+
+.searchHint {
+  @apply mt-2 text-sm text-brand-700;
+}
+
+.empty {
+  @apply mt-10 text-center text-zinc-500;
+}
+
+.eventList {
+  @apply mt-8 space-y-4;
+}
+
+.cardLinkAgotado {
+  @apply flex flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white text-zinc-500 shadow-card transition md:flex-row hover:border-zinc-300 hover:shadow-card;
+}
+
+.cardLink {
+  @apply flex flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-card transition md:flex-row hover:border-brand-300 hover:shadow-card-hover;
+}
+
+.cardMediaCol {
+  @apply relative w-full shrink-0 md:w-48 lg:w-56;
+}
+
+.cardMedia {
+  @apply relative aspect-[16/10] min-h-[140px] w-full overflow-hidden bg-zinc-100 md:aspect-auto md:h-full md:min-h-[160px];
+}
+
+.cardImg {
+  @apply absolute inset-0 h-full w-full object-cover object-center [transform:translateZ(0)];
+}
+
+.cardImgAgotado {
+  @apply absolute inset-0 h-full w-full object-cover object-center [transform:translateZ(0)] grayscale-[0.45] opacity-80;
+}
+
+.cardImgPh {
+  @apply flex h-full min-h-[140px] items-center justify-center text-4xl text-zinc-300;
+}
+
+.badgeDestacado {
+  @apply absolute left-2 top-2 rounded-full bg-amber-500 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wide text-white shadow;
+}
+
+.badgeCupo {
+  @apply absolute right-2 top-2 rounded-full bg-zinc-700 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wide text-white;
+}
+
+.cardBody {
+  @apply flex flex-1 flex-col justify-center gap-2 p-5 md:flex-row md:items-center md:gap-6;
+}
+
+.dateCol {
+  @apply flex items-start gap-3 md:w-24 md:flex-col md:items-center md:border-r md:border-zinc-100 md:pr-6 md:text-center;
+}
+
+.dateBoxAgotado {
+  @apply rounded-lg px-3 py-2 text-center md:bg-transparent md:px-0 bg-zinc-100;
+}
+
+.dateBox {
+  @apply rounded-lg px-3 py-2 text-center md:bg-transparent md:px-0 bg-brand-50;
+}
+
+.dateWeekAgotado {
+  @apply text-[10px] font-bold uppercase leading-none text-zinc-500;
+}
+
+.dateWeek {
+  @apply text-[10px] font-bold uppercase leading-none text-brand-600;
+}
+
+.dateDay {
+  @apply mt-1 font-display text-3xl font-extrabold leading-none text-zinc-900;
+}
+
+.dateMonth {
+  @apply text-xs font-semibold capitalize text-zinc-500;
+}
+
+.dateFullMobile {
+  @apply text-sm font-medium text-zinc-600 md:hidden;
+}
+
+.contentCol {
+  @apply min-w-0 flex-1;
+}
+
+.catAgotado {
+  @apply text-xs font-bold uppercase tracking-wide text-zinc-500;
+}
+
+.cat {
+  @apply text-xs font-bold uppercase tracking-wide text-brand-600;
+}
+
+.h3Agotado {
+  @apply font-display text-lg font-bold md:text-xl text-zinc-600;
+}
+
+.h3 {
+  @apply font-display text-lg font-bold text-zinc-900 md:text-xl group-hover:text-brand-800;
+}
+
+.ubic {
+  @apply mt-1 text-sm text-zinc-500;
+}
+
+.dateFullDesktop {
+  @apply mt-1 hidden text-sm text-zinc-500 md:block;
+}
+
+.priceCol {
+  @apply flex shrink-0 flex-col items-stretch gap-2 md:items-end;
+}
+
+.priceAgotado {
+  @apply text-right font-display text-lg font-bold text-zinc-500;
+}
+
+.price {
+  @apply text-right font-display text-lg font-bold text-zinc-900;
+}
+
+.priceUnit {
+  @apply text-sm font-normal text-zinc-500;
+}
+
+.pillAgotado {
+  @apply inline-flex items-center justify-center rounded-full px-5 py-2.5 text-sm font-bold bg-zinc-300 text-zinc-600;
+}
+
+.pill {
+  @apply inline-flex items-center justify-center rounded-full px-5 py-2.5 text-sm font-bold bg-brand-600 text-white group-hover:bg-brand-700;
+}

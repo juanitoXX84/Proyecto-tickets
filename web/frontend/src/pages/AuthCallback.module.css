@@ -1,0 +1,23 @@
+.errorScreen {
+  @apply min-h-screen bg-zinc-50 px-4 py-24 text-center;
+}
+
+.errorText {
+  @apply text-red-600;
+}
+
+.errorBtn {
+  @apply mt-4 font-semibold text-brand-700 hover:underline;
+}
+
+.loadingScreen {
+  @apply flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-brand-50 to-zinc-50 px-4;
+}
+
+.spinner {
+  @apply h-10 w-10 animate-spin rounded-full border-2 border-brand-600 border-t-transparent;
+}
+
+.loadingText {
+  @apply mt-4 text-sm font-medium text-zinc-600;
+}

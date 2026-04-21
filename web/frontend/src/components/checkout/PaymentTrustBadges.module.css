@@ -1,0 +1,39 @@
+.wrap {
+  @apply mt-6 flex flex-col items-center gap-3 border-t border-zinc-100 pt-6;
+}
+
+.secureRow {
+  @apply flex items-center gap-2 text-sm font-semibold text-zinc-700;
+}
+
+.shieldIcon {
+  @apply h-9 w-9 shrink-0 text-emerald-600;
+}
+
+.logosRow {
+  @apply flex flex-wrap items-center justify-center gap-4;
+}
+
+.logoMp {
+  @apply flex h-9 items-center rounded-md bg-[#009EE3] px-2.5 py-1 shadow-sm;
+}
+
+.logoMpText {
+  @apply font-display text-[11px] font-extrabold leading-tight tracking-tight text-white sm:text-xs;
+}
+
+.logoVisa {
+  @apply flex h-8 items-center rounded border border-zinc-200 bg-white px-2.5 shadow-sm;
+}
+
+.visaWord {
+  @apply font-sans text-sm font-extrabold tracking-wide text-[#1A1F71];
+}
+
+.logoMc {
+  @apply flex h-8 items-center rounded border border-zinc-200 bg-white px-1.5 shadow-sm;
+}
+
+.srOnly {
+  @apply sr-only;
+}

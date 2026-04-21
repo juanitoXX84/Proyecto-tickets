@@ -1,0 +1,35 @@
+.article {
+  @apply mx-auto max-w-3xl px-4 py-12 lg:py-16;
+}
+
+.back {
+  @apply text-sm font-medium text-brand-700;
+}
+
+.backLink {
+  @apply hover:underline;
+}
+
+.title {
+  @apply mt-4 font-display text-3xl font-extrabold text-zinc-900;
+}
+
+.lead {
+  @apply mt-2 text-sm text-zinc-500;
+}
+
+.prose {
+  @apply mt-8 max-w-none text-sm leading-relaxed text-zinc-700;
+}
+
+.proseH2 {
+  @apply font-display text-lg font-bold text-zinc-900;
+}
+
+.proseH2Spaced {
+  @apply mt-8 font-display text-lg font-bold text-zinc-900;
+}
+
+.proseP {
+  @apply mt-2;
+}

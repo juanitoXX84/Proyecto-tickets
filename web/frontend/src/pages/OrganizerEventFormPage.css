@@ -1,0 +1,40 @@
+/* Estilos de página: formulario de evento (organizador). La mayoría de campos siguen usando utilidades en JSX. */
+.organizer-event-form-page {
+  @apply mx-auto max-w-3xl px-4 py-10;
+  /* Evita desbordes horizontales en móvil con grids / inputs anchos */
+  max-width: min(48rem, 100vw - 2rem);
+}
+
+.organizer-event-form-page input:not([type='checkbox']):not([type='radio']):not([type='file']),
+.organizer-event-form-page select,
+.organizer-event-form-page textarea {
+  @apply max-w-full min-w-0;
+}
+
+.organizer-event-form-page > div:first-of-type {
+  @apply mb-8 flex flex-wrap items-center justify-between gap-4;
+}
+
+.organizer-event-form-page > div:first-of-type p {
+  @apply text-xs font-bold uppercase tracking-wide text-brand-700;
+}
+
+.organizer-event-form-page > div:first-of-type h1 {
+  @apply font-display text-2xl font-extrabold text-zinc-900;
+}
+
+.organizer-event-form-page > div:first-of-type a {
+  @apply text-sm font-semibold text-brand-700 hover:underline;
+}
+
+.organizer-event-form-page form {
+  @apply space-y-10;
+}
+
+.organizer-event-form-page form > section {
+  @apply rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm;
+}
+
+.organizer-event-form-page form > section > h2 {
+  @apply font-display text-lg font-bold text-zinc-900;
+}
